@@ -1,8 +1,8 @@
-# Visualization and analysis of ELF and PE interconnections
+# Visualization and analysis of ELF files interconnections
 
 * [Project description](#project-description)
 * [Results](#results)
-* [Files and folders descriptions](#files-and-folders-descriptions)
+* [Files and folders description](#files-and-folders-description)
 
 ### Project description
 My diploma project for analyzing Shared Objects of ELF format files and DLL/EXE of PE format files based on graphs.
@@ -17,16 +17,21 @@ Folder **out/** contains final visualizations of graphs. Visualization was fine-
 Files are named after metrics used for analysis. 
 
 ### Examples:
-**out/net_auth.png**
-
-![Network module, metric authority](out/net_auth.png)
+**out/net_auth.png | Metric: HITS, Authority**
+<img src="out/net_auth.png" height = "800">
 * yellow - max value of the metric
 * blue - middle value of the metric
 * green - min value of the metric
 
-**out/zetshell_hubs.png**
+**out/net_page.png | Metric: PageRank**
+<img src="out/net_page.png" height = "800">
+* yellow - max value of the metric
+* blue - middle value of the metric
+* green - min value of the metric
 
-![Zettlr module, metric hubness](out/zetshell_hubs.png)
+
+**out/zetshell_hubs.png | Metric: HITS, Hubness**
+<img src="out/zetshell_hubs.png" width = "800">
 * green - max value of the metric
 * white - min value of the metric
 
